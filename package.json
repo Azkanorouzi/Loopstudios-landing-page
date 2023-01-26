@@ -1,0 +1,22 @@
+{
+  "name": "loopstudios-landing-page-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Loopstudios landing page coding challenge](./design/desktop-preview.jpg)",
+  "main": "\u001b[D\u001b[D\u001b[C",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azkanorouzi/loopstudio-landing-page-frontend-mentor-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Azkanorouzi/loopstudio-landing-page-frontend-mentor-/issues"
+  },
+  "homepage": "https://github.com/Azkanorouzi/loopstudio-landing-page-frontend-mentor-#readme",
+  "dependencies": {
+    "sass": "^1.57.1"
+  }
+}

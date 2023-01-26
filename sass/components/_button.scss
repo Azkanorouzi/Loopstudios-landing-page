@@ -1,0 +1,21 @@
+@use "../abstracts/mixins";
+
+.btn {
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: .5rem;
+  color: black;
+  padding: 1rem 5rem;
+  border: 1px solid currentColor;
+  font-weight: 400;
+  cursor: pointer;
+  transition: .5s all;
+  &:visited {
+    color: black;
+  }
+  &:hover {
+    background: black;
+    color: white;
+  }
+}

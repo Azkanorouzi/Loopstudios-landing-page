@@ -1,0 +1,49 @@
+@use "../abstracts/variables" as var;
+@use "../abstracts/mixins";
+
+:root {
+  font-size: 62.5%; // 62.5% of 16px(default font size) = 10px
+}
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.header__title {
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 100 !important ;
+  color: white;
+}
+.main__img-text {
+  text-align: center;
+}
+.main__img-title {
+  font-size: 3.5rem;
+  font-weight: 300;
+  padding: 2rem;
+  text-transform: uppercase;
+
+}
+.main__img-caption {
+  font-size: 2rem;
+  color: var.$very-darkGray;
+  line-height: 3rem;
+  @include mixins.respond(tab-port) {
+      font-size: 1rem;
+      line-height: 2rem;
+  }
+  @include mixins.respond(big-desktop) {
+    font-size: 2rem;
+  }
+}
+.creation__title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 300;
+}
+.creation__item-title {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 300;
+}

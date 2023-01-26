@@ -1,0 +1,18 @@
+@use "../abstracts/mixins";
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem 3rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  @include mixins.respond(tab-port) {
+    width: unset;
+    height: unset;
+    z-index: unset;
+    padding: 5rem 10rem;
+  }
+}
